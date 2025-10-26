@@ -1,0 +1,82 @@
+[
+  {
+    "id": "1",
+    "usuario": "Gabriel",
+    "password": "1234",
+    "dni": "74850163",
+    "saldo": 100,
+    "transacciones": [
+      {
+        "fecha": "2025-10-26 02:13:23",
+        "destino": "Albert1",
+        "monto": " - 200",
+        "tipo": "Salida"
+      },
+      {
+        "fecha": "2025-10-26 12:57:20",
+        "destino": "admin",
+        "monto": " - 200",
+        "tipo": "Salida"
+      },
+      {
+        "fecha": "2025-10-26 12:58:55",
+        "destino": "admin",
+        "monto": " - 200",
+        "tipo": "Salida"
+      },
+      {
+        "fecha": "2025-10-26 13:10:58",
+        "destino": "admin",
+        "monto": " - 50",
+        "tipo": "Salida"
+      },
+      {
+        "fecha": "2025-10-26 13:27:07",
+        "destino": "Marco",
+        "monto": " - 50",
+        "tipo": "Salida"
+      }
+    ]
+  },
+  {
+    "usuario": "admin",
+    "password": "1234",
+    "saldo": 450,
+    "transacciones": [
+      {
+        "fecha": "2025-10-26 12:57:20",
+        "origen": "Gabriel",
+        "monto": " + 200",
+        "tipo": "Ingreso"
+      },
+      {
+        "fecha": "2025-10-26 12:58:55",
+        "origen": "Gabriel",
+        "monto": " + 200",
+        "tipo": "Ingreso"
+      },
+      {
+        "fecha": "2025-10-26 13:10:58",
+        "origen": "Gabriel",
+        "monto": " + 50",
+        "tipo": "Ingreso"
+      }
+    ],
+    "id": "83c5c62f-daef-410a-989d-e9b7040462c0"
+  },
+  {
+    "usuario": "Marco",
+    "password": "1234",
+    "saldo": 50,
+    "transacciones": [
+      {
+        "fecha": "2025-10-26 13:27:07",
+        "origen": "Gabriel",
+        "monto": " + 50",
+        "tipo": "Ingreso"
+      }
+    ],
+    "dni": "10377373",
+    "id": "0dd5eaa0-efc2-459b-ae4d-2491006b0418"
+  }
+]
