@@ -7,7 +7,7 @@ const PORT = 8000;
 
 app.use(express.json())
 
-// Middleware eliminado: la lectura y escritura debe hacerse dentro de cada endpoint para evitar problemas de concurrencia y alcance.
+
 
 
 app.post("/register", async (req, res) => {
